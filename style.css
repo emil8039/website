@@ -1,0 +1,62 @@
+body {
+    background-color: ivory;
+}
+
+h1,
+h2,
+p {
+  font-family: "Indie Flower", cursive;
+}
+
+img,
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#sarah {
+    background-image: url();
+}
+	
+.iframe-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  
+  padding-top: calc(100% / (16 / 9));
+}
+ 
+iframe {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  position: sticky;
+  top: 0;
+  padding: 1rem 1rem;
+  gap: 20px;
+  box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.3);
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  font-family: "Indie Flower"; "sans-serif";
+  text-decoration: none;
+  color: black;
+  justify-content: flex-start;
+  list-style: none;
+  gap: 30px;
+  font-size: 1.5em;
+}
+
+.color_1 {
+  background-color: chocolate;
+}
